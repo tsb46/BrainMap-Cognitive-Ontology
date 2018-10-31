@@ -1,3 +1,11 @@
+This repository contains the analysis code used for the Brain Map Cognitive Ontology paper that is currently under review:
+
+Bolt, Nomi, Aren, Vij, Riedel, Salo, Laird, Eickhoff, and Uddin (Under Review). Towards a Data-Driven Ontology of Cognitive-Neural Mappings
+
+There is current agreement that the way we divide up the mind, our cognitive ontology or taxonomy, doesn't do the job. The idea of this project is to use the relationships among whole-brain BOLD activation patterns as a source of novel data-driven categories. Of course this code can be used for any sort of analysis beyond the goals of this project.
+
+The main features of this analysis pipeline are a fast decomposition of whole-brain activation maps using non-negative matrix factorization, followed by a data-driven clustering analysis. This code borrows a lot from well-developed MATLAB functions and toolboxes so please make sure to have the following code dependenices on your path:
+
 Code dependencies you need to run this code:
 
 1. SVD Initialization provided from the following GitHub page (user: trigeorgis) for semi-NMF: 
